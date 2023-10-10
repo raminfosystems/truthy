@@ -1,7 +1,9 @@
 import { ConnectionOptions } from 'typeorm';
 import * as config from 'config';
 
-const dbConfig = config.get('db');
+// const dbConfig = config.get('db');
+const dbConfig = config.get('mysqldb');
+
 const ormConfig: ConnectionOptions = {
   type: process.env.DB_TYPE || dbConfig.type,
   host: process.env.DB_HOST || dbConfig.host,

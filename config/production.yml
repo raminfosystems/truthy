@@ -50,3 +50,12 @@ throttle:
     limit: 5
     duration: 2592000
     blockDuration: 3000
+
+mysqldb:
+  host: 'localhost'
+  type: 'mysql'
+  port: 3306
+  database: 'truthy'
+  username: 'truthy'
+  password: 'setpassword'
+  synchronize: false

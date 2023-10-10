@@ -8,3 +8,12 @@ db:
 
 jwt:
   secret: 'example@123'
+
+mysqldb:
+  host: 'localhost'
+  type: 'mysql'
+  port: 3306
+  database: 'truthy'
+  username: 'root'
+  password: ''
+  synchronize: false
